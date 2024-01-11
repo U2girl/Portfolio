@@ -1,0 +1,505 @@
+@font-face {
+    font-family:'fanlste';
+    src: url('./fanlste.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family:'charlotte';
+  src: url('./charlotte.ttf') format('opentype');
+}
+
+@font-face {
+  font-family:'Shorelines Script Bold';
+  src: url('./Shorelines Script Bold.otf') format('opentype');
+}
+@font-face {
+    font-family:'goingtodogreatthings';
+    src: url('./goingtodogreatthings.ttf') format('opentype');
+  }
+  
+  .logo {
+    margin-right: 20px; /* Adjust the spacing as needed */
+  }
+  nav ul {
+    display:flex;
+    justify-content:flex-end;
+    padding:30px;
+    transition: ease 0.5s;
+    border: 2px black solid;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5), -5px -5px 10px 0px rgba(255, 255, 255, 0.5);
+    
+    font-family:'fanlste',sans-serif;
+    font-size: large;
+}
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+.logo{
+    display:flex
+   }
+   .logo-text{
+    display: flex;
+    gap:10px;
+    font-family:'Shorelines Script Bold';
+   }
+   .style{
+    display:flex;
+    justify-content: space-between;
+  }
+  .myflex{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  }
+  .style {
+    list-style-type: none;
+  }
+
+  .navigation {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .intro{
+    height: 300vh;
+    width:auto;
+  }
+
+  .pastworks{
+    height: 10vh;
+    width:auto;
+  }
+
+  .contact{
+    height: 100vh;
+    width:auto;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;}
+    
+    a:hover{
+      color: gold;
+    }
+    @media only screen and (max-width: 767px) {
+        body{
+          background-color: azure;
+          max-width: 100%; 
+         overflow-x: hidden;
+        }
+       
+        header{
+            width:auto;
+            margin:0 auto;
+        }
+        a:hover{
+            color: white
+        }
+        .container{
+            max-width: 100%; /* Set your desired maximum width */
+            margin: 0 auto;
+          }
+   
+           nav ul{
+               
+               font-size: x-small;
+               border: 2px white solid;
+               background-color:rgb(115, 246, 150);
+               overflow: hidden;
+           }
+           .navigation {
+               margin-right: 10px;
+             }
+   
+             .intro,.pastworks,.contact{
+              
+               width:auto;
+               margin-bottom:20px;
+               border: 2px rgb(89, 255, 0) solid;
+               font-family:'fanlste';
+             
+               
+             }
+           
+             .intro{
+                height: auto;  /*reduce or increase with respect to what you need */
+               background-color: rgb(127, 155, 255);
+               padding:20px;
+               text-align: center;
+             }
+             .intro img{
+                margin-top:15px; /*reduce or increase with respect to what you need */
+                height:auto; /*reduce or increase with respect to what you need */
+                max-width:100%;     /*reduce or increase with respect to what you need */
+                border: 4px rgb(255, 225, 0) solid;
+                border-radius: 40%;
+              }
+              .intro h2{
+                font-family: 'charlotte';
+                font-size:large;
+              }
+             .introStyle{
+              margin-top: 50px;
+              line-height:30px;
+             }
+             .align{
+                display:flex;
+                justify-content: center;
+               }
+                .pastworks{
+                  background-color: aquamarine;
+                  padding:20px;
+                }
+                .contact{
+                    background-color: aquamarine;
+                    padding:20px;
+                  }
+        
+                  h2{
+                    font-size:smaller;
+                  }
+                  p{
+                    font-size:x-small ;
+                  }
+          
+                  
+              .end{
+                position:relative;
+                display: flex;
+                font-weight: bold;
+                font-family:'goingtodogreatthings';
+                justify-content: center;
+                align-items: center;
+                height:50px;
+                width:auto;
+                background-color: rgb(0, 255, 38);
+                color:white;
+          
+              }
+              .portfolio{
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+              }
+          
+              .contact {
+                text-align: center;
+            }
+            
+            .contact h2 {
+                margin-bottom: 20px;
+            }
+            form {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            label {
+                display: block;
+                margin-bottom: 8px;
+                font-family: 'charlotte', Courier, monospace;
+                font-size: small;
+            }
+            input,
+  textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: rgb(0, 255, 51);
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    border-radius: 60px;
+}
+}
+@media  only screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+        background-color: azure;
+      }
+      a:hover{
+          color: white
+      }
+      header{
+        width:auto;
+        margin-bottom: 200px;
+      }
+      nav ul{
+        font-family:'fanlste';
+        font-size: large;
+        border: 2px white solid;
+        background-color: rgb(255, 0, 204);
+    }
+    
+    
+ .container{
+  width: auto; /* Set your desired maximum width */
+  margin: 0 auto;
+}
+.navigation {
+    margin-right: 10px;
+  }
+   
+
+  .intro,.pastworks,.contact{
+   width:100%;
+   margin-bottom:40px;
+   font-family:'fanlste';
+ 
+   
+ }
+ .intro{
+    height:auto;
+    padding:20px;
+    text-align: center;
+  }
+  .intro img{
+            
+    margin-top:30px;
+    height:auto;
+    max-width:100%;
+    border: 2px rgb(255, 0, 204) solid;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5), -5px -5px 10px 0px rgba(255, 255, 255, 0.5);
+  }
+  .intro h2{
+    font-family: 'charlotte';
+    font-size:xx-large;
+  }
+ .introStyle{
+  margin-top: 50px;
+  line-height:30px;
+ }
+ .align{
+    display:flex;
+    justify-content: center;
+   }
+    .pastworks{
+      background-color:peachpuff;
+      padding:20px;
+    }
+    .contact{
+        background-color:peachpuff ;
+        padding:20px;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5), -5px -5px 10px 0px rgba(255, 255, 255, 0.5);
+      }
+      .navigation {
+        margin-right: 15px;
+      }
+
+      h2{
+        font-size: x-large;
+      }
+    p{
+      font-size:large ;
+    }
+    .end{
+        position:relative;
+        display: flex;
+        font-size: xx-large;
+        font-family:'goingtodogreatthings';
+        justify-content: center;
+        align-items: center;
+        height:150px;
+        width:auto;
+        background-color:  rgb(255, 0, 204);
+        color:white;
+  
+      }
+      .portfolio{
+        display:flex;
+        justify-content: space-between;
+      }
+      .contact {
+        text-align: center;
+    }
+    
+    .contact h2 {
+        margin-bottom: 20px;
+    }
+    form {
+        max-width: 800px;
+        margin: 0 auto;
+        
+    }
+    label {
+        display: block;
+        margin-bottom: 24px;
+        font-family: 'charlotte', Courier, monospace;
+        font-size: large;
+        color:rgb(255, 0, 204);
+    }
+
+    input,
+        textarea {
+            width: 100%;
+            padding: 24px;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+            border: 2px rgb(255, 0, 204) solid ;
+        }
+        input[type="submit"] {
+            background-color:  rgb(255, 0, 204);
+            color: #fff;
+            cursor: pointer;
+            border:none;
+            border-radius:50px;
+            font-size: large;
+            font-family:'goingtodogreatthings';
+        }
+    }
+
+
+
+    @media only screen and (min-width: 1024px){
+        
+        body{
+            background-color: azure;
+          }
+  
+          header{
+            margin-bottom: 200px;
+            width:auto;
+        } 
+        a:hover{
+            color: rgb(194, 61, 13); 
+         }
+         nav ul{
+             font-size: medium;
+             border: 2px white solid;
+             background-color:peachpuff;
+         }
+         .navigation {
+            margin-right: 20px;
+          }
+        
+          .container{
+            width: auto; /* Set your desired maximum width */
+          }     
+          .intro{
+            padding:20px;
+            text-align: center;
+          }
+          .intro img{
+            margin-top:50px;
+            height:auto;
+            max-width:70%;
+            border: 10px black solid;
+            border-radius: 50%;
+          }
+          .intro h2{
+            font-family: 'charlotte';
+            font-size:xx-large;
+          }
+         .introStyle{
+          margin-top: 50px;
+          line-height:60px;
+         }
+         .align{
+            display:flex;
+            justify-content: center;
+           }
+            .pastworks{
+              background-color: aquamarine;
+              padding:20px;
+            }
+            .contact{
+                background-color: aquamarine;
+                padding:20px;
+              }
+              .navigation {
+                margin-right: 15px;
+              }
+  
+              h2{
+                font-size: x-large;
+              }
+            p{
+              font-size:large ;
+            }
+            .end{
+                position:relative;
+                display: flex;
+                font-size: xx-large;
+                font-family:'goingtodogreatthings';
+                justify-content: center;
+                align-items: center;
+                height:150px;
+                width:auto;
+                background-color:peachpuff;
+                color:white;
+          
+              }
+              .portfolio{
+                display:flex;
+                justify-content: space-between;
+              }
+          
+              .contact {
+                text-align: center;
+            }
+            .contact h2 {
+                margin-bottom: 20px;
+            }
+            
+            form {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            label {
+                display: block;
+                margin-bottom: 24px;
+                font-family: 'charlotte', Courier, monospace;
+                font-size: large;
+            }
+            input,
+           textarea {
+               width: 100%;
+               padding: 24px;
+               margin-bottom: 30px;
+               box-sizing: border-box;
+           }
+           input[type="submit"] {
+            background-color: black;
+            color: #fff;
+            cursor: pointer;
+            font-size: x-large;
+            font-family:'goingtodogreatthings';
+        }
+        .intro,.pastworks,.contact{
+            margin-top:200px;
+            width:auto;
+            margin-bottom:100px;
+            font-family:'fanlste';
+            box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5), -5px -5px 10px 0px rgba(255, 255, 255, 0.5);
+        
+          
+            
+          }
+          .intro{
+            background-color: peachpuff;
+            padding:40px;
+          }
+          .pastworks{
+            background-color: peachpuff;
+            padding:40px;
+            color:black;
+          }
+          .contact{
+            background-color:peachpuff;
+            padding:40px;
+            color:black;
+
+          }
+          h2{
+            font-size: xx-large;
+          }
+        p{
+          font-size:x-large ;
+        }
+
+}
